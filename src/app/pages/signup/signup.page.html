@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+   	<ion-list>
+		<ion-item>
+		  <ion-label position="floating">Email</ion-label>
+		  <ion-input type="text" [(ngModel)]="email" name="email"></ion-input>
+		</ion-item>
+
+		<ion-item>
+		  <ion-label position="floating">Password</ion-label>
+		  <ion-input type="text" [(ngModel)]="password" name="password"></ion-input>
+		</ion-item>
+	</ion-list>
+
+	<div>
+		<ion-button expand="block" (click)="signup()">Sign up</ion-button>
+	</div>
+
+	<ion-row padding>
+		<ion-col size="5"> <hr/> </ion-col>
+		<ion-col size="2"> or </ion-col>
+		<ion-col size="5"> <hr/> </ion-col>
+
+	</ion-row>
+
+	<div>
+		<ion-button expand="block" >Sign with facebook</ion-button>
+	</div>
+	<div>
+		<ion-button expand="block" >Sign with google</ion-button>
+	</div>
+
+</ion-content>

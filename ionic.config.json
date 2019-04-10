@@ -1,0 +1,7 @@
+{
+  "name": "movieSearch",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
